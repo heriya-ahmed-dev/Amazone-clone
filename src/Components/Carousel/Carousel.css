@@ -1,0 +1,15 @@
+.Carousel_img{
+    width: 1000px;
+    height: 80vh;
+    text-align: center;
+     object-fit: cover;
+     display: block;
+    margin: 5px auto 0 auto
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+
+}

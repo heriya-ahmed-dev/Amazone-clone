@@ -5,7 +5,6 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import InnerHeader from './InnerHeader';
-import CarauselEffect from '../Carousel/CarauselEffect';
 const Header = () => {
   return (
     <div>
@@ -41,8 +40,7 @@ const Header = () => {
    
 
     </div>
-        <InnerHeader/>
-        <CarauselEffect/>
+        <InnerHeader/>      
     </div>
   )
 }
