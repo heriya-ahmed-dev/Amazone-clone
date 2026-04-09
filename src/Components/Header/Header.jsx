@@ -1,0 +1,50 @@
+import React from 'react';
+import './Header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import InnerHeader from './InnerHeader';
+import CarauselEffect from '../Carousel/CarauselEffect';
+const Header = () => {
+  return (
+    <div>
+    <div className='d-flex text-light main'>
+      <div className='d-flex '>
+         <div>
+            <img src="https://i.pinimg.com/736x/fa/16/b8/fa16b892512b3df516211c68fc489134.jpg" alt="Amazon_logo"
+              className='Amazon_logo'
+            />
+         </div>
+         <div className='d-flex mt-1'>
+            <LocationOnOutlinedIcon className='my-2 mx-2'/>
+            <p>Delivered To<br/><span className='fs-5 fw-semibold'>Ethiopia</span></p>
+         </div>
+      </div>
+      <div className=''>
+          <input type="text" placeholder='' className='search_bar mt-2 ' />
+        
+      </div>
+     
+        <div className='d-flex'>
+        <img src="https://i.pinimg.com/736x/ff/76/57/ff7657010677b3dbe75fe03c5de5a8d7.jpg"
+          className='flag  mt-3 ms-2'
+         />
+         <h6 className=' mt-3 ms-2'>EN</h6>
+         <ExpandMoreOutlinedIcon className='mt-3'/>
+         <div className='d-flex  mt-1 ms-3'>
+            <p>Sign in <br/>Accounts & lists </p>
+            <p className='ms-3'>returns <br/>& orders</p>
+            <ShoppingCartOutlinedIcon className='ms-3 mt-2 w-5'/>
+         </div>
+      </div>
+   
+
+    </div>
+        <InnerHeader/>
+        <CarauselEffect/>
+    </div>
+  )
+}
+
+export default Header;
