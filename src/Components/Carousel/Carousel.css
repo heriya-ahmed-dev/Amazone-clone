@@ -4,12 +4,11 @@
     text-align: center;
      object-fit: cover;
      display: block;
-    margin: 5px auto 0 auto
+    margin: 5px auto 0 auto;
 }
 body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background-color: black;
-
+    background-color: rgb(70, 57, 57);
 }

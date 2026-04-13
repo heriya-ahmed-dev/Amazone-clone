@@ -13,7 +13,7 @@ const CarauselEffect = () => {
           showIndicators = {false}
           showThumbs={false}
           interval={2000}      
-          transitionTime={500}
+          transitionTime={700}
         >
           {
            images.map((img,id) =>{

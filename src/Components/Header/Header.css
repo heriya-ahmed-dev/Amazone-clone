@@ -5,6 +5,8 @@
     margin-left:  10px;
     border-radius: 5px;
 }
+
+
 .bold{
     font-weight: 400;
 }
@@ -19,6 +21,7 @@
     border-radius: 12px;
     
 }
+
 .flag{
     width:35px;
     margin:0px auto auto 7px;
@@ -28,4 +31,16 @@
 .main{
     height: 60px;
     background-color: black;
+}
+.hovering:hover{
+    margin-top: 2px;
+    border: 2px solid white;
+}
+
+.hovered:hover{
+    height: 53px;
+    border: 2px  solid white
+}
+.h{
+    height: 29px;
 }

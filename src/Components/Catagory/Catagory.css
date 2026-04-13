@@ -1,0 +1,16 @@
+.box{
+    width: 280px;
+    color: black;
+    margin: 5px auto auto 0px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box_container{
+    display: flex;
+    gap: 7px;   
+    position: relative;
+    margin: 10px auto auto 15px;
+    border-radius: 10px;
+}
