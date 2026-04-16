@@ -6,9 +6,9 @@
      display: block;
     margin: 5px auto 0 auto;
 }
-body{
+.body{
     margin: 0px;
     padding: 0px;
     text-align: center;
-    background-color: rgb(70, 57, 57);
+    background-color: rgb(180, 179, 177);
 }

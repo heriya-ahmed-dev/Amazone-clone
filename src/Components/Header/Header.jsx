@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
@@ -33,9 +34,15 @@ const Header = () => {
         
          <ExpandMoreOutlinedIcon className='mt-3'/>
          <div className='d-flex  mt-1 ms-3'>
-            <p className='hovered'>Sign in <br/>Accounts & lists </p>
-            <p className='ms-3 hovered'>returns <br/>& orders</p>
-            <ShoppingCartOutlinedIcon className='ms-3 mt-2 w-5 hovering'/>
+            <Link to="/list" className='hovered text-decoration-none' >
+             <span className='text-white'> Sign in <br/>Accounts & lists </span>
+           </Link>
+            <Link to = "/Orders"className='ms-3 hovered text-decoration-none Link-light' href="Orders">
+              <span className='text-white'>returns <br/>& orders</span>
+            </Link>
+            <Link to="/Cart">
+            <ShoppingCartOutlinedIcon className='ms-3 mt-2 w-5 hovering text-white' />.
+            </Link>
          </div>
       </div>
    

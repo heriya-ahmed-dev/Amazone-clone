@@ -1,33 +1,31 @@
-import jewellery from  './Images/jewellery.jpg';
-import golden2 from './Images/Golden2.jpg';
-import tutta from './Images/tutta.jpeg';
-import boots2 from './Images/boots2.jpeg'
-import muslim1 from './Images/muslim1.jpeg'
-
+import jewellery from  './Images/jwelery1.jpeg';
+import india from './Images/india4.jpeg'
+import mens from './Images/men1.jpeg'
+import laptop from './Images/laptop1.jpg'
 
 export const Cat_Info = [ 
     {
         id:1 ,
         Title: "Jawellary",
-        desc : "Glow your beauty",
-        Url : jewellery
+        desc : "Jewellery",
+        image : jewellery
     },
     {
         id:2 ,
         Title: "Velo",
-        desc : "Queen of the day",
-        Url : golden2
+        desc : "Women's Cloth",
+        image : india
     },
     {
         id:3 ,
-        Title: "Sport Shoe",
-        desc : "Run with comfort",
-        Url : muslim1
+        Title: "Islamic Dress",
+        desc : "Male's Cloth",
+        image : mens
     },
     {
         id:4 ,
-        Title: "Hell",
-        desc : "Only for confident one",
-        Url : tutta
+        Title: "Sport Cloth",
+        desc : "Electronics",
+        image : laptop
     }
 ]

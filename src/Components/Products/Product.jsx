@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import Product_list from './product_list';
 import './Product.css'
-import { Products } from './Product.js';
 const Product = () => {
    const [Products,setProducts] = useState([])
 
