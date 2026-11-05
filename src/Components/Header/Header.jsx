@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import InnerHeader from './InnerHeader';
+import InnerHeader from './InnerHeader'
 const Header = () => {
   return (
     <div>
@@ -38,7 +38,7 @@ const Header = () => {
              <span className='text-white'> Sign in <br/>Accounts & lists </span>
            </Link>
             <Link to = "/Orders"className='ms-3 hovered text-decoration-none Link-light' href="Orders">
-              <span className='text-white'>returns <br/>& orders</span>
+              <span className='text-white whi'>returns <br/>& orders</span>
             </Link>
             <Link to="/Cart">
             <ShoppingCartOutlinedIcon className='ms-3 mt-2 w-5 hovering text-white' />.
@@ -48,9 +48,10 @@ const Header = () => {
    
 
     </div>
-        <InnerHeader/>      
+        {/* <InnerHeader/>       */}
     </div>
   )
 }
+
 
 export default Header;

@@ -1,34 +1,25 @@
-import React from 'react'
-import {Carousel} from 'react-responsive-carousel'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import {images} from './Carousel.js';
-import './Carousel.css'
-
+import React from 'react';
+import { images } from './Carousel';
+import './Carousel.css';
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const CarauselEffect = () => {
   return (
-    <div className='body'>
-        <Carousel
-          autoPlay ={true}
-          infiniteLoop = {true} 
-          showIndicators = {false}
-          showThumbs={false}
-          interval={2000}      
-          transitionTime={700}
+    <div>
+       <Carousel
+        infiniteLoop ={true}
+        autoPalay = {true}
+        showIndicator = {true}
         >
-          {
-           images.map((img,id) =>{
-           return(
-             <div key={id} className='Carousel_img'>
-               <img src={img.url} alt="images" className=''/>
-            </div>
-            ) 
-           })
-          }
+       {images.map((items)=>{
+        return(
+          <div key={items.id}>
+              <img src={items.url}/>
 
-
-
-
-        </Carousel>
+          </div>
+        )
+       })}
+       </Carousel>
     </div>
   )
 }
